@@ -3,8 +3,6 @@ import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.uic import loadUi
 import sqlite3 #aqui importamos el sqlite que se conecta a la base de datos
-#import CreacionTabla #aqui hicimos importar un archivo .py donde creamos una base de datos
-#from loginDream import Ui_login
 from Cliente import Ui_Cliente #aqui importamos archivos bueno que paso de .ui a .py
 from Juegos import Ui_Juegos
 from Ventas import Ui_Ventas
